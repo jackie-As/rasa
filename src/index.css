@@ -14,16 +14,15 @@
     --color-background:#ebebeb;
 }
 /*---no scroll----*/
-::-webkit-scrollbar{
+/* ::-webkit-scrollbar{
     display: none;
-  }
+  } */
 
 body{
     /* background-color: var(--color-background); */
     background: url(Asset\ 9.png) repeat;
     background-size: 15rem;
     font-family: farsi;
-
 margin: 0%;
 }
 .top{
@@ -124,9 +123,6 @@ box-shadow: 0 0.25rem 3rem #000000;
     box-shadow: inset 12vw 0 0 0 #ff5871;
     color: white;
 }
-
-
-
 /*------------- MAIN PART ----------------*/
 #tozihat{
 width: 100%;
@@ -145,8 +141,10 @@ display: flex;
     flex-direction: column;
     flex-wrap: wrap;
     justify-content: center;
-top: 9vh;
+top: 90px;
 box-shadow: 0rem 1rem 2rem 0px #000000;
+overflow-y: hidden;
+overflow-x: auto;
 }
 #bigtext{
     font-weight: bolder;
@@ -203,7 +201,7 @@ box-shadow: 0rem 1rem 2rem 0px #000000;
         font-weight: 800;
         top: 8px;
         right: 6vw;
-        width: 70vw;
+        width: 60vw;
         margin-right: 2vw;
     }
     .thefirst{
@@ -238,13 +236,18 @@ box-shadow: 0rem 1rem 2rem 0px #000000;
 
   @media only screen and (max-width: 488px) {
     /* For mobilephones: */
-    
+    .thefirst{
+        width: 18vw;
+    }
+    .title2{
+        width: 12vw;
+    }
     .text{
         font-weight: 800;
         font-size: small;
         top: 6px;
         right: 3vw;
-        width: 70vw;
+        width: 60vw;
         margin-right: 1vw;
     }
     .logo{
